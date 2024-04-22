@@ -47,7 +47,7 @@ public class QuizServlet extends HttpServlet
 	     {
 	    	 c++;
 	     }
-	     System.out.println(c);
+	     
 	     
 	     req.setAttribute("final", c);
 	     RequestDispatcher rd = req.getRequestDispatcher("finalScore.jsp");
